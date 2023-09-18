@@ -1,0 +1,6 @@
+curl -LJO "https://download.oracle.com/otn_software/linux/instantclient/1917000/instantclient-basiclite-linux.x64-19.17.0.0.0dbru.zip"\
+	&& curl -LJO "https://download.oracle.com/otn_software/linux/instantclient/1917000/instantclient-sdk-linux.x64-19.17.0.0.0dbru.zip"
+
+curl -LJO "https://cran.r-project.org/src/contrib/ROracle_1.3-1.1.tar.gz"
+
+sudo R CMD INSTALL --configure-args='--with-oci-lib=/home/jovyan/instantclient_19_17 --with-oci-inc=/home/jovyan/instantclient_19_17/sdk/include' ROracle_1.3-1.1.tar.gz

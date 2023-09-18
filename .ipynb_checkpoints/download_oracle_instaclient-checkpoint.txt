@@ -1,0 +1,2 @@
+curl -LJO "https://download.oracle.com/otn_software/linux/instantclient/1917000/instantclient-basiclite-linux.x64-19.17.0.0.0dbru.zip"\
+	&& curl -LJO "https://download.oracle.com/otn_software/linux/instantclient/1917000/instantclient-sdk-linux.x64-19.17.0.0.0dbru.zip"

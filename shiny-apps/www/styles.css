@@ -1,0 +1,32 @@
+#node_colours_tgt {
+				/* color: #D3D3D3; */
+				padding: 1px 1px;
+				margin-bottom: -14px;
+				margin-top: 1px;
+				/* margin-bottom: -15px; */
+}
+
+#node_tgt_cpick {
+				padding: 1px 1px;
+				height: auto; 
+				margin-bottom: 1px;
+				/* position:relative; */
+				margin-top:-20px;
+}
+
+label[for="node_tgt_cpick"] {
+				font-size: 10px;
+				position:relative;
+				top:-20px;
+				/* margin-top:-40px; */
+				/* margin-bottom: 5px; */
+				/* margin-top: -10px; */
+}
+/* body { */
+/* 				/1* background-color: black; *1/ */
+/* 				color: white; */
+/* } */
+
+h2 {
+				color: #D3D3D3;
+}
